@@ -1,0 +1,17 @@
+header {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	top: 0;
+	width: 100vw;
+	height: var(--header-height);
+	z-index: 100;
+}
+
+.nav {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}

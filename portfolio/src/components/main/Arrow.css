@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+	:root {
+		--width-arrow: 30px;
+		--height-arrow: 30px;
+		--position: 0.5rem;
+	}
+}
+
+@media (min-width: 768px) {
+	:root {
+		--width-arrow: 50px;
+		--height-arrow: 50px;
+		--position: 2rem;
+	}
+}
+
+.arrow-button {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: var(--width-arrow);
+	height: var(--height-arrow);
+	padding: 6px;
+	border-radius: 50%;
+	z-index: 1;
+	backdrop-filter: blur(2px)
+}
+
+.arrow-button-left {
+	left: var(--position)
+}
+
+.arrow-button-right {
+	right: var(--position)
+}

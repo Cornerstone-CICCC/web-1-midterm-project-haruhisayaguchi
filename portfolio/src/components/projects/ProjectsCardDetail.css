@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+	:root {
+		--width-card-detail: 18rem;
+		--height-card-detail: 24rem;
+		--font-size-card-detail: 1rem;
+	}
+}
+
+@media (min-width: 768px) {
+	:root {
+		--width-card-detail: 40rem;
+		--height-card-detail: 12rem;
+		--font-size-card-detail: 0.8rem;
+	}
+}
+
+.projects-card-detail {
+	position: absolute;
+	top: 25%;
+	width: var(--width-card-detail);
+	height: var(--height-card-detail);
+	margin: 1rem 0;
+	border-radius: 1rem;
+	color: #ddd;
+	cursor: pointer;
+	transform-origin: 'top center';
+}
+
+.projects-card-detail-head {
+	font-size: large;
+	font-weight: 600;
+	height: 2rem;
+	padding: 0.5rem 1rem 0;
+}
+
+.projects-card-detail-main {
+	padding: 0.5rem 1rem;
+	font-size: var(--font-size-card-detail);
+}
+
+.projects-card-detail-separator {
+	width: 100%;
+	margin-top: 0.5rem;
+	height: 1px;
+	background-color: #ddd;
+}

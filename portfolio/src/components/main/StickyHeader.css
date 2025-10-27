@@ -1,0 +1,70 @@
+.sticky-header {
+	padding: 0.1rem 0;
+	background-color: black;
+	z-index: 10;
+}
+
+.separator {
+	position: relative;
+	width: 100%;
+	margin: 0.5rem 0;
+}
+
+.separator-line {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	z-index: 0;
+	transform-origin: left;
+}
+
+.title {
+	position: relative;
+	display: inline-block;
+	background-color: black;
+	padding: 0 0.5rem;
+	margin: 0 1.5rem;
+	z-index: 1;
+}
+
+.bg-about {
+	background-color: var(--about-color);
+}
+
+.text-about {
+	color: var(--about-color);
+}
+
+.bg-projects {
+	background-color: var(--projects-color);
+}
+
+.text-projects {
+	color: var(--projects-color);
+}
+
+.bg-skills {
+	background-color: var(--skills-color);
+}
+
+.text-skills {
+	color: var(--skills-color);
+}
+
+.bg-works {
+	background-color: var(--works-color);
+}
+
+.text-works {
+	color: var(--works-color);
+}
+
+.bg-blog {
+	background-color: var(--blog-color);
+}
+
+.text-blog {
+	color: var(--blog-color);
+}

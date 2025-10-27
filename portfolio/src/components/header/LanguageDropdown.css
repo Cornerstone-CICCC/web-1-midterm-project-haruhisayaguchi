@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+	:root {
+		--dropdown-position: 0.25rem;
+	}
+}
+
+@media (min-width: 768px) {
+	:root {
+		--dropdown-position: 2rem;
+	}
+}
+
+.language-dropdown {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	right: var(--dropdown-position);
+	height: 100%;
+}
+
+.language-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.4rem;
+	padding: 0.5rem 0.75rem;
+	width: 6rem;
+	backdrop-filter: blur(2px);
+}
+
+.language-menu {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 3.5rem;
+	right: var(--dropdown-position);
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	width: 6rem;
+	height: 2.5rem;
+}
+
+.language-menu:hover {
+	background-color: #282828;
+}

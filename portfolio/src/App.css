@@ -1,0 +1,13 @@
+.section-wrapper {
+	height: calc(100vh - var(--header-height) - var(--footer-height));
+	overflow: hidden;
+	position: relative;
+	outline: none;
+	margin-top: var(--header-height);
+	margin-bottom: var(--footer-height);
+}
+
+.scroll-spacer {
+	height: var(--footer-height);
+	flex-shrink: 0;
+}
