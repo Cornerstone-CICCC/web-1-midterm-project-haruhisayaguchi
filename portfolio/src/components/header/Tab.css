@@ -1,0 +1,97 @@
+.tab li {
+	position: relative;
+	height: 100%;
+}
+
+.tab .link {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.tab a {
+	color: #ddd;
+	font-weight: 600;
+	font-size: small;
+	text-align: center;
+	white-space: pre-line;
+}
+
+.tab .active-tab {
+	position: relative;
+	bottom: 0.3rem;
+	width: 100%;
+	height: 0.3rem;
+}
+
+.tab .home:hover {
+	color: var(--home-color);
+}
+
+.tab .home-active {
+	color: var(--home-color);
+}
+
+.tab .bg-home {
+	background-color: var(--home-color);
+}
+
+.tab .about:hover {
+	color: var(--about-color);
+}
+
+.tab .about-active {
+	color: var(--about-color);
+}
+
+.tab .bg-about {
+	background-color: var(--about-color);
+}
+
+.tab .projects:hover {
+	color: var(--projects-color);
+}
+
+.tab .projects-active {
+	color: var(--projects-color);
+}
+
+.tab .bg-projects {
+	background-color: var(--projects-color);
+}
+
+.tab .skills:hover {
+	color: var(--skills-color);
+}
+
+.tab .skills-active {
+	color: var(--skills-color);
+}
+
+.tab .bg-skills {
+	background-color: var(--skills-color);
+}
+
+.tab .works:hover {
+	color: var(--works-color);
+}
+
+.tab .works-active {
+	color: var(--works-color);
+}
+
+.tab .bg-works {
+	background-color: var(--works-color);
+}
+
+.tab .blog:hover {
+	color: var(--blog-color);
+}
+
+.tab .blog-active {
+	color: var(--blog-color);
+}
+
+.tab .bg-blog {
+	background-color: var(--blog-color);
+}

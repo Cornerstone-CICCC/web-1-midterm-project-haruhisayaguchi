@@ -1,0 +1,23 @@
+.works-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: var(--content-height);
+}
+
+.works-container {
+	display: flex;
+	justify-content: center;
+	margin: 1rem 0;
+	width: 100%;
+	overflow: hidden
+}
+
+.works-cards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	height: 28rem;
+}

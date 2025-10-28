@@ -1,0 +1,26 @@
+.projects-timeline {
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	margin: 0 3rem;
+}
+
+.projects-timeline-frame {
+	width: 0.5rem;
+	background-color: black;
+	background-image: linear-gradient(white 1.25rem, transparent 0.5rem);
+	background-size: 1rem 2rem;
+	background-repeat: repeat-y;
+}
+
+.projects-timeline-images {
+	display: flex;
+	flex-direction: column;
+}
+
+.projects-timeline-image {
+	width: 4rem;
+	height: 5rem;
+	border-radius: 5%;
+	margin: 0 0.5rem 0.5rem;
+	background-color: white;
+}

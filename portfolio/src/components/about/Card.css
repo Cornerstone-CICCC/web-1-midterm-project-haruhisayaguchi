@@ -1,0 +1,63 @@
+@media (max-width: 768px) {
+	:root {
+		--card-body-min-height: 24rem;
+		--card-body-font-size: 1rem;
+	}
+}
+
+@media (min-width: 768px) {
+	:root {
+		--card-body-min-height: 20rem;
+		--card-body-font-size: 0.75rem;
+	}
+}
+
+.card-container {
+	width: 100%;
+	min-height: 3rem;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+	overflow: hidden;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	color: #ddd;
+}
+
+.card-container-active {
+	width: 100%;
+	min-height: 3rem;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.card-body {
+	width: 100%;
+	padding: 1rem;
+	min-height: var(--card-body-min-height);
+	font-weight: 600;
+	font-size: var(--card-body-font-size);
+}
+
+.card-title {
+	display: flex;
+	align-items: center;
+	font-weight: 900;
+	font-size: large;
+	padding: 1rem;
+	width: 100%;
+}
+
+.card-title p {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.card-separator {
+	width: 100%;
+	height: 2px;
+	background-color: black;
+}
